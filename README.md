@@ -1,4 +1,4 @@
-itunes-library-parsing-class
+iTunes Library Parsing Class
 ============================
 
 PHP Class to parse an iTunes Library XML file into an array of objects.
