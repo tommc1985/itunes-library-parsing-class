@@ -154,8 +154,8 @@ class Itunes_Library {
                 $track->season = in_array("Season", $keys) ? (int) $song->integer[$integer_index++] : NULL;
                 $track->episode = in_array("Episode", $keys) ? (string) $song->string[$string_index++] : NULL;
                 $track->episode_order = in_array("Episode Order", $keys) ? (int) $song->integer[$integer_index++] : NULL;
-                $track->sort_album = in_array("Persisent ID", $keys) ? (string) $song->string[$string_index++] : NULL;
-                $track->persistent_id = in_array("Persisent ID", $keys) ? (string) $song->string[$string_index++] : NULL;
+                $track->sort_album = in_array("Sort Album", $keys) ? (string) $song->string[$string_index++] : NULL;
+                $track->persistent_id = in_array("Persistent ID", $keys) ? (string) $song->string[$string_index++] : NULL;
                 $track->content_rating = in_array("Content Rating", $keys) ? (string) $song->string[$string_index++] : NULL;
                 $track->track_type = in_array("Track Type", $keys) ? (string) $song->string[$string_index++] : NULL;
                 $track->protected = in_array("Protected", $keys) ? true : false;
